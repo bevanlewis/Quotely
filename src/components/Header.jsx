@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "./Button";
-import styles from "./Header.module.css";
+import styles from "../styles/Header.module.css";
 
 function Header({ showModal }) {
   return (

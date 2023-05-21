@@ -3,4 +3,17 @@
     flex-grow: 32;
     justify-content: center;
     align-items: center;
+    padding: 10% 25%;
+}
+
+.quoteHolder {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.quoteHolder .author {
+    display: flex;
+    justify-content: flex-end;
 }

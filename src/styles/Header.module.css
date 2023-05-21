@@ -1,8 +1,8 @@
 .header {
-    background-color: rgba(247, 255, 19, 0.371);
     display: flex;
     justify-content: center;
     flex-grow: 0;
+    color: white
 }
 
 .headerText {

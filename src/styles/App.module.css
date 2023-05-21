@@ -1,6 +1,31 @@
 .content {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    background-color: blue;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: rgb(187, 210, 219);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.image001 {
+  background-image: url("../images/image001.jpeg");
+}
+.image002 {
+  background-image: url("../images/image002.jpeg");
+}
+
+.image003 {
+  background-image: url("../images/image003.jpeg");
+}
+
+.image004 {
+  background-image: url("../images/image004.jpeg");
+}
+
+.image005 {
+  background-image: url("../images/image005.jpeg");
+}
+
+.image006 {
+  background-image: url("../images/image006.jpeg");
 }

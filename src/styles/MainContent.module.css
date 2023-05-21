@@ -23,3 +23,17 @@
 .quoteHolder .quote {
   font-weight: 500;
 }
+
+/* Font for desktop */
+@media (min-width: 768px) {
+  .quoteHolder {
+    font-size: 7vh;
+  }
+}
+
+/* Font for mobile */
+@media (max-width: 767px) {
+  .quoteHolder {
+    font-size: 4.3vh;
+  }
+}

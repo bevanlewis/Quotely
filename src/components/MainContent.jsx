@@ -1,9 +1,28 @@
-import React from 'react'
+import React, { useEffect, useState } from "react";
+import styles from "../styles/MainContent.module.css";
 
-function MainContent({children}) {
+import QUOTES from "../quotelist";
+
+function MainContent() {
+  const [quote, setQuote] = useState(QUOTES[0]);
+
+  const getRandomQuote = () => {
+    const randomIndex = Math.floor(Math.random() * QUOTES.length);
+    return QUOTES[randomIndex];
+  };
+
+  useEffect(() => {
+    setQuote(getRandomQuote());
+  }, []);
+
   return (
-    <div>Main{children}</div>
-  )
+    <div className={styles.mainContent}>
+      <div className={styles.quoteHolder}>
+        <div className={styles.quote}>{`${quote.quote}`} </div>
+        <div className={styles.author}>{`-${quote.author}`}</div>
+      </div>
+    </div>
+  );
 }
 
-export default MainContent
+export default MainContent;

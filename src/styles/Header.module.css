@@ -2,10 +2,12 @@
     display: flex;
     justify-content: center;
     flex-grow: 0;
-    color: white
+    color: white;
+    /* background: linear-gradient(to top, rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0)); */
 }
 
 .headerText {
     font-size: 100%;
     padding: 0.8%;
+    font-family: 'Roboto Slab', serif;
 }

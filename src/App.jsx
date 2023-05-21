@@ -5,11 +5,11 @@ import styles from "./styles/App.module.css";
 
 const backgroundImageStyles = [
   styles.image001,
-    styles.image002,
-    styles.image003,
-    styles.image004,
-    styles.image005,
-    styles.image006,
+  styles.image002,
+  styles.image003,
+  styles.image004,
+  styles.image005,
+  styles.image006,
 ];
 
 function App() {
@@ -28,8 +28,10 @@ function App() {
   return (
     <>
       <div className={`${styles.content} ${backgroundImage}`}>
-        <Header />
-        <MainContent></MainContent>
+        <div className={styles.overlay}>
+          <Header />
+          <MainContent></MainContent>
+        </div>
       </div>
     </>
   );

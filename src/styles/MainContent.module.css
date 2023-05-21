@@ -1,19 +1,25 @@
 .mainContent {
-    display: flex;
-    flex-grow: 32;
-    justify-content: center;
-    align-items: center;
-    padding: 10% 25%;
+  display: flex;
+  flex-grow: 32;
+  justify-content: center;
+  align-items: center;
+  padding: 10% 25%;
 }
 
 .quoteHolder {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: white;
+  font-family: "Playfair Display", serif;
 }
 
 .quoteHolder .author {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 400;
+}
+
+.quoteHolder .quote {
+  font-weight: 500;
 }

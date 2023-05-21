@@ -36,4 +36,8 @@
   .quoteHolder {
     font-size: 4.3vh;
   }
+
+  .mainContent {
+    padding: 5%;
+  }
 }

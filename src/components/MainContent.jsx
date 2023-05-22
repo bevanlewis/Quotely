@@ -15,6 +15,10 @@ function MainContent() {
     setQuote(getRandomQuote());
   }, []);
 
+  function quoteSetter() {
+    setQuote(getRandomQuote());
+  }
+
   return (
     <div className={styles.mainContent}>
       <div className={styles.quoteHolder}>
@@ -26,6 +30,11 @@ function MainContent() {
         ) : (
           <div>"Loading..."</div>
         )}
+        <div className={styles.buttonHolder}>
+          <button className={styles.button} onClick={quoteSetter}>
+            &#8634;
+          </button>
+        </div>
       </div>
     </div>
   );

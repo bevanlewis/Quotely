@@ -31,6 +31,7 @@ function App() {
         <div className={styles.overlay}>
           <Header />
           <MainContent></MainContent>
+          
         </div>
       </div>
     </>

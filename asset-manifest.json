@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Quotely/static/css/main.c5733827.css",
-    "main.js": "/Quotely/static/js/main.0c1e02b6.js",
+    "main.js": "/Quotely/static/js/main.e5960f92.js",
     "static/js/787.fbe268a5.chunk.js": "/Quotely/static/js/787.fbe268a5.chunk.js",
     "static/media/image006.jpeg": "/Quotely/static/media/image006.8b297e26e6cc674cca50.jpeg",
     "static/media/image005.jpeg": "/Quotely/static/media/image005.21cec3c07cde066c1c31.jpeg",
@@ -11,11 +11,11 @@
     "static/media/image001.jpeg": "/Quotely/static/media/image001.5e377cd131c07db0e10e.jpeg",
     "index.html": "/Quotely/index.html",
     "main.c5733827.css.map": "/Quotely/static/css/main.c5733827.css.map",
-    "main.0c1e02b6.js.map": "/Quotely/static/js/main.0c1e02b6.js.map",
+    "main.e5960f92.js.map": "/Quotely/static/js/main.e5960f92.js.map",
     "787.fbe268a5.chunk.js.map": "/Quotely/static/js/787.fbe268a5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c5733827.css",
-    "static/js/main.0c1e02b6.js"
+    "static/js/main.e5960f92.js"
   ]
 }

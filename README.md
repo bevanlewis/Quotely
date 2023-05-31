@@ -15,9 +15,9 @@ Project built using
 
 Mobile Version
 
-<img src="./markdown-images/phone.png" alt="mobile image" height="200"/>
+<img src="./markdown-images/phone.png" alt="mobile image" height="500"/>
 
 Desktop Version
 
-<img src="./markdown-images/desktop.png" alt="desktop image" height="200"/>
+<img src="./markdown-images/desktop.png" alt="desktop image" width="700"/>
 

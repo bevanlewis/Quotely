@@ -4,7 +4,7 @@ The website generates random quotes on refresh and also allows the user to click
 
 The website has been optimized for mobile and desktop
 
-The website can be accessed at [Quotely.com](https://github.com/bevanlewis/Quotely)
+The website can be accessed at [Quotely.com](https://bevanlewis.github.io/Quotely/) 
 
 Project built using 
 
